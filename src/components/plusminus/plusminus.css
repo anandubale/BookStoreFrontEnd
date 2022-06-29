@@ -1,0 +1,45 @@
+.addSubBookMainBoxx {
+    width: 170px;
+    /* border: 1px solid #ff0000; */
+    height: 38px;
+    display: flex;
+    /* margin-top: -10px; */
+}
+
+.SubBox{
+    width: 30px;
+    height: 30px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 50%;
+    opacity: 1;
+    margin-right: 9px;
+
+}
+
+
+.MiddleRectBox {
+
+    width: 40px;
+    height: 27px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DBDBDB;
+    border-radius: 2px;
+    opacity: 1;
+    margin-right: 8px;
+    font-size: 17px;
+    padding-top: 2px;
+    margin-top: 1px;
+
+}
+
+
+.AddBox{
+    
+    width: 30px;
+    height: 30px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #DBDBDB;
+    opacity: 1;
+    border-radius: 50%;
+}

@@ -1,0 +1,41 @@
+
+.MainWishListBox {
+    width: 1022px;
+    height: fit-content;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #f4ebeb;
+    opacity: 1;
+    margin: 112px 167px 280px 177px;
+    padding-bottom: 25px;
+}
+
+.MyWishListTextBox {
+
+    width: 1022px;
+    height: 55px;
+    background: #F5F5F5 0% 0% no-repeat padding-box;
+    border: 1px solid #E4E4E4;
+    border-radius: 1px;
+    opacity: 1;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 17px 0px 14px 34px;
+    box-sizing: border-box;
+
+
+}
+
+.inclusiveBox {
+    display: flex;
+}
+
+
+.removeWishlistBox {
+    width: 11px;
+    height: 13px;
+    /* UI Properties */
+    background: #9D9D9D 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 45px 47.6px 0px 564px;
+}

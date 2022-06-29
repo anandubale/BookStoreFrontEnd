@@ -1,0 +1,137 @@
+.MainBookDetailsBox{
+    width: 774px;
+    height: 100%;
+    border: 1px solid rgba(112,112,112,0.24);
+    border-radius: 1px;
+    margin-top: 50px;
+    margin-left: 177px;
+}
+
+
+.myCartTextBox span{
+
+    width: 85px;
+    height: 22px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 36px;
+    margin-top: 17px;
+    font-family:  Roboto;
+
+    /* border: 1px solid red; */
+
+
+}
+
+
+.centralBookBox{
+
+    margin-top: 30px;
+    margin-left: 36px;
+    width: 236px;
+    height: 89px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin-left: 36px;
+
+}
+
+.bookImgBox{
+    width: 65px;
+    height: 85px;
+    border: 1px solid red;
+
+}
+
+
+.bookInfoBox{
+    margin-left: 36px;
+    width: 133px;
+    height: 85px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+
+.cartBookTitle{
+
+    width: 133px;
+    height: 17px;   
+
+    text-align: left;
+    font: normal normal normal 14px/17px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    /* border: 1px solid red; */
+
+
+}
+
+
+.cartBookAuthor{
+
+    width: 63px;
+    height: 12px;
+    text-align: left;
+    font: normal normal normal 10px/12px Lato;
+    letter-spacing: 0px;
+    color: #9D9D9D;
+    opacity: 1;
+    /* border: 1px solid red; */
+    margin: 8px 0px 10px 0;
+
+
+}
+
+
+
+.cartBookPrice{
+
+
+    width: 58px;
+    height: 18px;
+    text-align: left;
+    font: normal normal bold 15px/18px Lato;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    /* border: 1px solid red; */
+
+}
+
+.cartBookPlusMinus{
+    
+    width: 30%;
+    height: 24px;
+    margin-left: 140px;
+    margin-top: 7px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.placeOrderBox{
+    width: 151px;
+    height: 35px;
+    /* background: #3371B5 0% 0% no-repeat padding-box; */
+    border-radius: 2px;
+    opacity: 1;
+    /* border: 1px solid red; */
+    margin-left: 589px;
+    margin-bottom: 20px;
+
+}
+
+
+
+

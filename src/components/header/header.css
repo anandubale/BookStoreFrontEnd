@@ -1,0 +1,127 @@
+.MainHeaderBox{
+    width: 1518px;
+    height: 60px;
+    background-color: #A03037;
+    opacity: 1;
+    display: flex;
+}
+
+
+.BookLogo{
+    width: 31px;
+    height: 24px;
+    /* border: 1px solid black; */
+    margin: 18.6px 0px 17.69px 163.98px ;
+
+}
+.AppName{
+    width: 91px;
+    height: 26px;
+    /* border: 1px solid red; */
+    margin: 17px 0 17px 5.98px;
+
+}
+
+.AppName span{
+
+    color: #FFFFFF;
+    font: normal normal normal 20px/26px Roboto;
+    opacity: 1;
+}
+.SearchBar{
+    width: 490px;
+    height: 33px;
+    border: 1px solid White;
+    margin: 14px 0px 14px 42px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #ffffff;
+    align-items: center;
+    border-radius: 5px;
+}
+
+
+.SearchBar input {
+    border: none;
+}
+
+
+.SearchBar input:focus {
+    outline:none;
+
+}
+
+.SearchIcon{
+    width: 12.99px;
+    height: 12.93px;
+    margin: 7px 12px 10px 13.81px;
+    color: #FFFFFF;
+}
+
+
+
+
+.Profile{
+    display: flex;
+    flex-direction: column;
+}
+
+.ProfileLogo{
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid red; */
+    margin: 18px 0px 3px 247px;
+
+}
+
+.ProfileText{
+    width: 31px;
+    height: 13px;
+    /* border: 1px solid red; */
+    margin: 0px 0px 0px 240px;
+
+}
+
+.ProfileText span{
+
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.Cart{
+
+    display: flex;
+    flex-direction: column;
+
+}
+.CartLogo{
+    width: 15px;
+    height: 15px;
+    /* border: 1px solid red; */
+    margin: 17px 0px 3px 72px;
+}
+
+.CartText{
+    
+    /* border: 1px solid red; */
+    width: 31px;
+    height: 13px;    
+    margin: 0px 0px 0px 65px;
+
+
+}
+
+
+.CartText span{
+    font: normal normal normal 10px/13px Roboto;
+    letter-spacing: 0.45px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+
+
+
+

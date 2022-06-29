@@ -1,0 +1,60 @@
+*{
+    /* opacity: 0.31; */
+    /* background: #000000 0% 0% no-repeat padding-box;  */
+    /* position: relative;
+    width: 1366px;
+    height: 768px; */
+    /* z-index: 60; */
+    /* background-color: rgb(255,255,255, 0.31); */
+ 
+}
+
+
+.MainPageContainer{
+    width: 18vw;
+    height: 48vh;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    text-align: center;
+    margin:auto;
+    padding: 3rem;
+    position: relative;
+    top: 5em;
+
+}
+
+.LeftImageBox{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+
+.LeftImageTextBox{
+
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(85,85,85);
+    font-weight: 500;
+}
+
+.SignInSignUp{
+    width: 24vw;
+    height: 60vh;
+    border: 1px solid red;
+    border-radius: '8px';
+    position: relative;
+    bottom: 5rem;
+    background-color: rgb(255,255,255, 0.31);
+
+}
+
+.switchButtons{
+    /* display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 10px; */
+
+}

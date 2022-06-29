@@ -1,0 +1,117 @@
+.MainSuccessBox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+.fireworkMainBox {
+
+    width: 170px;
+    height: 225px;
+    /* UI Properties */
+    opacity: 1;
+    border: 1px solid red;
+    margin-top: 117.05px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.MiddleTextkBox {
+    width: 286px;
+    height: 30px;
+    /* UI Properties */
+    font: normal normal bold 25px/30px Lato;
+    letter-spacing: 0px;
+    color: #333232;
+    text-transform: capitalize;
+    opacity: 1;
+    margin-top: 120px;
+    border: 1px solid red;
+
+}
+
+
+.fireworkBottomBox {
+    width: 98px;
+    height: 46px;
+    opacity: 1;
+    margin-top: 14.73px;
+    border: 1px solid red;
+
+}
+
+
+.ConfirmationTextBox {
+    width: 354px;
+    height: 66px;
+    /* UI Properties */
+    text-align: center;
+    font: normal normal normal 18px/22px Lato;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+    margin-top: 33.42px;
+    border: 1px solid red;
+
+}
+
+.ContactDetails {
+    width: 751px;
+    height: 90px;
+    /* UI Properties */
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    opacity: 1;
+    /* border: 1px solid red; */
+    margin-top: 49px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 14px;
+    padding-bottom: 13px;
+}
+
+
+.commonBox {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid red; */
+    width: 33.33%;
+
+
+
+}
+
+
+
+
+.ContinueShopping {
+    width: 200px;
+    height: 35px;
+    /* UI Properties */
+    background: #3371B5 0% 0% no-repeat padding-box;
+    border-radius: 3px;
+    opacity: 1;
+    margin-top: 30px;
+    padding-top: 7px;
+}
+
+.values {
+
+    padding-top: 30px;
+    text-align: center;
+    font: normal normal normal 12px/15px Lato;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+}
+
+

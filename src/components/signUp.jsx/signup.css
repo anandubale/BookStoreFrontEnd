@@ -1,0 +1,115 @@
+body{
+    /* opacity: 0.31; */
+    /* background: #000000 0% 0% no-repeat padding-box;  */
+    position: relative;
+    width: 1366px;
+    height: 768px;
+    z-index: -1;
+    background-color: rgb(255,255,255, 0.31);
+ 
+}
+
+.MainSignUpDiv{
+    width: 389px;
+    height: 425px;
+    background-color: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 5px 15px #00000029;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px; 
+    opacity: 1;
+    /* margin-top: 166px;
+    margin-left: 658px; */
+    z-index: 10;
+    margin: auto;
+}
+
+.leftLogo1{
+
+    width: 365px;
+    height: 391px;
+    /* border: 1px solid red; */
+    margin-top: -407px;
+    margin-left: -334px;
+    background-color: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    z-index: 2;
+
+}
+
+
+.leftLogo1 img{
+    width: 245px;
+    height: 245px;
+    margin: 52px 0px 94px 0px;
+}
+
+
+
+.TopButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signUpLogoBox{
+    /* border: 1px solid red; */
+    width: 89px;
+    height: 33px;
+    margin: 28px 77px 0px 82px;
+
+}
+
+
+.FullNameBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 43px 68px 28px 69px;
+
+}
+
+
+
+.EmailBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 0px 68px 28px 69px;
+
+}
+
+
+
+.PasswordBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 0px 68px 28px 69px;
+
+}
+
+.MobileNoBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 0px 68px 22px 69px;
+
+}
+
+
+
+.SignUPButtonBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 0px 68px 38px 69px;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,194 @@
+.MainBookBox1{
+    margin: 10px;
+    width: 968px;
+    height: 445px;
+    /* border: 1px solid red; */
+    display: flex;
+}
+
+.leftSideBox{
+    width: 350px;
+    height: 85%;
+    border: 1px solid #d6d6d6;
+
+}
+
+.insideBlock{
+
+    height: 340px;
+    /* border: 1px solid red; */
+    margin: 30px;
+}
+
+
+.buttons{
+    display: flex;
+    /* border: 1px solid black; */
+    height: 40px;
+}
+
+.addToCart{
+    
+    /* border: 1px solid #ff0000; */
+     
+
+}
+
+
+
+.wishList{
+
+    width: 170px;
+    /* border: 1px solid red; */
+    margin-left: 10px ;
+
+}
+
+.rightSideBox{
+    width: 630px;
+    height: 100%;
+    /* border: 1px solid black; */
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.BoookTitle{
+    width: 100%;
+    height: 40px;
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.BookAuthor2{
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: roboto;
+    color: #878787;
+
+
+
+}
+
+
+.BookRating{
+    width: 8%;
+    height: 25px;
+    /* border: 1px solid red; */
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #388E3C;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: roboto;
+
+}
+
+.BookPrice{
+    width: 100%;
+    height: 45px;
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: roboto;
+
+}
+
+.BookPrice span{
+
+    font-size: 15px;
+    font-weight: 300;
+    font-family: roboto;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+
+
+
+
+
+
+.BookDecreption{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 12px;    
+    font-family: roboto;
+    font-weight: 300;
+    text-align: justify;
+    border-top: 1px solid #878787;
+    border-bottom: 1px solid #878787;
+    padding-top: 10px;
+
+
+}
+
+.BookDecreption1{
+    font-size: 13px;    
+    font-family: roboto;
+
+}
+
+.CustomerFeekBack{
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid red; */
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 13px;    
+    font-weight: 500;
+    font-family: roboto;
+
+}
+
+
+.Rating{
+    width: 100%;
+    height: 100px;
+    /* border: 1px solid red; */
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 13px;    
+    font-weight: 500;
+    font-family: roboto;
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+

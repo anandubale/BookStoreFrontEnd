@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.rightPopUp{
+
+    width: 389px;
+    height: 425px;
+    background-color: rgb(255,255,255, 0.31);
+    box-shadow: 0px 5px 15px #00000029;
+    border: 1px solid #E4E4E4;
+    border-radius: 6px; 
+    opacity: 1;
+    /* margin-top: 166px;
+    margin-left: 658px; */
+    z-index: 10;
+    /* margin: auto; */
+
+}
+
+.leftLogo{
+
+    width: 365px;
+    height: 391px;
+    /* border: 1px solid red; */
+    margin-top: -410px;
+    margin-left: 315px;
+    background-color: #F5F5F5 0% 0% no-repeat padding-box;
+    border-radius: 21px;
+    border: 1px solid #E4E4E4;
+    opacity: 1;
+    z-index: 2;
+
+}
+
+.leftLogo img{
+    width: 245px;
+    height: 245px;
+    margin: 52px 0px 94px 0px;
+}
+
+
+.loginTitle{
+    /* border: 1px solid red; */
+    width: 72px;
+    height: 33px;
+    margin: 28px 0px 0px 69px;
+}
+
+.loginTitle span{
+
+    text-align: left;
+    font: normal normal medium 24px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    text-transform: uppercase;
+    opacity: 1;
+
+}
+
+.emailBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 43px 68px 28px 69px;
+
+}
+
+.passBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 35px;
+    margin: 0px 68px 30px 69px;
+  
+}
+
+.LoginButtonBox{
+    /* border: 1px solid red; */
+    width: 252px;
+    height: 37px;
+    margin: 0px 68px 26px 69px;
+}
+
+.orBox{
+    /* border: 1px solid red; */
+    width: 191.02px;
+    height: 18px;
+    margin: 0px 100px 28px 100px;
+}
+.bottomBox{
+   display: flex;
+   flex-direction: row
+}
+
+.faceBook{
+    /* border: 1px solid red; */
+    width: 126px;
+    height:37px;
+    margin: 0px 7px 47px 69px;
+}
+
+.google{
+    /* border: 1px solid red; */
+    width: 119px;
+    height:37px;
+    margin: 0px 37px 47px 7px;
+}
+
+
+
+
+.css-bhp9pd-MuiPaper-root-MuiCard-root {
+    background-color: rgb(255,255,255, 0.31);
+}

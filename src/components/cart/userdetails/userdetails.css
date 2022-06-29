@@ -1,0 +1,121 @@
+.userDetailsMainBox{
+    width: 774px;
+    height: 486px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #DCDCDC;
+    border-radius: 1px;
+    opacity: 1;
+    margin-top: 15px;
+    box-sizing: border-box;
+    padding: 0px 34px 36px 0px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 177px;
+
+}
+
+.custDetailTextBox{ 
+
+    width: 90%;
+    height: 36px ;
+    /* border: 1px solid red; */
+    margin: 17px 0px 38px 36px;
+
+}
+
+
+.custDetailTextBox span{
+
+    font-family:  Roboto;
+    letter-spacing: 0px;
+    color: #333232;
+    opacity: 1;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+
+
+.NamePhNoBox{
+
+    width: 70%;
+    height: 63px ;
+    /* border: 1px solid red; */
+    margin: 0px 0px 16px 52px;
+    display: flex;
+
+}
+
+.smallTextBox{
+    text-align: left;
+    font: normal normal normal 12px/16px Roboto;
+    letter-spacing: 0px;
+    color: #0A0102;
+    opacity: 1;
+    margin-bottom: 5px;
+}
+
+.FNinputBox{
+    width: 251px;
+    height: 45px;
+    opacity: 1;
+    margin-right: 10px;
+}
+
+.addressinputBox{
+    width: 512px;
+    height: 82px;
+}
+
+.AddressBox{
+
+    width: 70%;
+    height: 111px ;
+    /* border: 1px solid red; */
+    margin: 0px 0px 10px 52px;
+
+}
+
+
+.LocationDetailsBox{
+
+    width: 70%;
+    height: 111px ;
+    /* border: 1px solid red; */
+    margin: 0px 0px 14px 52px;
+    display: flex;
+
+}
+
+
+.custTypeDetailsBox{
+
+    width: 70%;
+    height: 44px ;
+    /* border: 1px solid red; */
+    margin: 0px 0px 20px 52px;
+
+}
+
+
+
+
+
+.buttonBox{
+
+    width: 150px;
+    height: 35px;
+    /* background: #3371B5 0% 0% no-repeat padding-box; */
+    border-radius: 3px;
+    opacity: 1;
+    /* border: 1px solid red; */
+    margin-left: 564px;
+
+}
+
+
+
+

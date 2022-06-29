@@ -1,0 +1,17 @@
+.AllBooksFlexBox{
+    width: 1168px;
+    margin: 86px 150px 144px 172px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Pagination{
+    width: 98vw;
+    margin: auto;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
