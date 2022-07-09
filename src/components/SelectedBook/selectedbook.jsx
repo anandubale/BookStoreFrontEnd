@@ -19,7 +19,7 @@ function SelectedBook (props) {
     console.log("selected Book",props.selectedBook)
     const listenToCart = () => {
 
-        AddToCart(props.selectedBook._id).then((res)=>{
+        AddToCart(props.selectedBook._id).then((res)=>{ 
             console.log(res);
             // setPlusMinus(false)
             props.CheckBooksInsideCart()

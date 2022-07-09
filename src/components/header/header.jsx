@@ -6,10 +6,12 @@ import PermIdentityIcon from '@mui/icons-material/PermIdentity';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { CheckCart } from "../../service/cartservice";
 import { useHistory } from 'react-router-dom'
-
+import Badge from '@mui/material/Badge';
+import {useSelector} from 'react-redux'
 
 
 function Header(props){
+
 
     const history = useHistory()
  
@@ -24,7 +26,8 @@ function Header(props){
         history.go(0)
     }
 
-    
+    const AllCartBooks = useSelector((state)=> state.cartReducer);
+    const result = (AllCartBooks.books || []).length
 
     const listenToHeaderFunction = () =>{
         props.listenToHeaderFunction()
@@ -42,8 +45,8 @@ function Header(props){
                 <div className="SearchIcon">
                 <SearchIcon fontSize="10" />
                 </div>
-                <div className="InputFields">
-                    <input type="text" placeholder="Search..."/>
+                <div className="InputFields" >
+                    <input type="text" placeholder="Search..." onChange={props.TakeInput} />
                 </div>
 
             </div>
@@ -57,7 +60,9 @@ function Header(props){
             </div>
             <div className="Cart">
                 <div className="CartLogo">
-                <ShoppingCartOutlinedIcon style={{ color: 'white' }} onClick = {listenToCart}/>
+                <Badge badgeContent={result} color="primary">
+                    <ShoppingCartOutlinedIcon style={{ color: 'white' }} onClick = {listenToCart}/>
+                </Badge>
                 </div>
                 <div className="CartText">
                     <span>Cart</span>

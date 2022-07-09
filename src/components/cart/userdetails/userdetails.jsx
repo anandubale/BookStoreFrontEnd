@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import './userdetails.css'
 import Button from '@mui/material/Button';
 import OutlinedInput from '@mui/material/OutlinedInput';
@@ -17,6 +17,8 @@ function UserDetails(props) {
 
 
     const [userdetails, setUserDetails] = React.useState({name: '', phoneNumber: '', fullAddress: '', city:'', state: '', addressType:'', UserID:'' })
+
+    // const inputRef = React.useRef(null)
 
     const takeFullName = (event) =>{
         setUserDetails({...userdetails, name: event.target.value})
@@ -56,6 +58,11 @@ function UserDetails(props) {
 
     }
 
+    // useEffect(()=>{
+    //     console.log("focus",inputRef)
+        
+    // },[])
+
     return (
         <div className="userDetailsMainBox">
             <div className="custDetailTextBox">
@@ -64,7 +71,7 @@ function UserDetails(props) {
             <div className="NamePhNoBox">
                 <div className="NameBox">
                     <div className="smallTextBox" >Full Name</div>
-                    <div className="FNinputBox"><OutlinedInput style={{ width: "100%", height: "100%", borderRadius: "0px" }} onChange={takeFullName}/></div>
+                    <div className="FNinputBox"><OutlinedInput style={{ width: "100%", height: "100%", borderRadius: "0px" }} onChange={takeFullName} autoFocus/></div>
 
                 </div>
                 <div className="PhoneBox">

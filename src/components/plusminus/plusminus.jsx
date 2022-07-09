@@ -36,6 +36,10 @@ function AddSubBook(props){
         .catch((error)=>{console.log(error)})
     }
 
+    useEffect(()=>{
+        props.CheckingCart()
+    },[])
+
 
     return(
         <div className="addSubBookMainBoxx">

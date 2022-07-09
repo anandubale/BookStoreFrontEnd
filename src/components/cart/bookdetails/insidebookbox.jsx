@@ -18,7 +18,7 @@ function InsideBooksBox(props) {
     }
 
 
-    console.log("this is props in InsideBookBox", props.InsideBook)
+    // console.log("this is props in InsideBookBox", props.InsideBook)
 
     return (
         <div className="Box">
@@ -27,7 +27,7 @@ function InsideBooksBox(props) {
                 <div className="bookInfoBox">
                     <div className="cartBookTitle">{props.InsideBook.bookName}</div>
                     <div className="cartBookAuthor">{props.InsideBook.author}</div>
-                    <div className="cartBookPrice">{props.InsideBook.price}</div>
+                    <div className="cartBookPrice">{props.InsideBook.price * props.InsideBook.quantity }</div>
                 </div>
 
             </div>
